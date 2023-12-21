@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<suite name="RedBus TestSuite">
+	
+	<test name="Redbus home page Test CHROME">
+		<classes>
+			<class name=" com.simplilearn.testNG.ProjectRedBusTestNG.check"></class>
+			
+		</classes>
+	</test>
+	
+	<test name="Redbus home page Test FIREFOX">
+		<classes>
+			<class name="com.simplilearn.testNG.ProjectRedBusTestNG.RedBusFirefoxDriver"></class>
+	
+		</classes>
+	</test>
+</suite>
